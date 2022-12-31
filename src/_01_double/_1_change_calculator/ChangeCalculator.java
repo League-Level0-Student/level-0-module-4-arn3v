@@ -26,13 +26,13 @@ public class ChangeCalculator {
 		int quarterInt = Integer.parseInt(quarterInput);
 		// Calculate how much money the user has.  Hint: Use a double variable 
 		
-		nickelInt = (int) (nickelInt * 0.15);
-		dimeInt = (int) (dimeInt * 0.10);
-		quarterInt = (int) (quarterInt * 0.25);
+		double nickelInt2 = (nickelInt * 0.15);
+		double dimeInt2 =(dimeInt * 0.10);
+		double quarterInt2 =(quarterInt * 0.25);
 		
-		int total = nickelInt + dimeInt + quarterInt;
+		double total = nickelInt2 + dimeInt2 + quarterInt2;
 		
-		System.out.println(total);
+		System.out.println("You have $" + total);
 
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
 
